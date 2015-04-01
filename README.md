@@ -21,4 +21,14 @@ Cette commande, une fois lancée, va _watcher_ le répertoire sass (entre autres
 grunt
 ```
 
+## Pages ##
+
+- Accueil
+- Carte (catégories)
+- Listing produits
+- Produit Detail
+- Compte (anciennes commandes, etc.)
+- Panier
+- Infos
+
 Le reste à suivre.
