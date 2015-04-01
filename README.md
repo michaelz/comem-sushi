@@ -1,8 +1,7 @@
-# Foundation libsass template
+# Projet pour Site de Sushi - Cours ErgoINT
+Comem+ / HEIG-VD 2015
 
-This is a template to start your own project that uses Grunt and libsass!
-
-## Requirements
+## Prérequis
 
 You'll need to have the following items installed before continuing.
 
@@ -10,20 +9,16 @@ You'll need to have the following items installed before continuing.
   * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
   * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
 
-## Quickstart
+## Installation
+
+Pour installer le projet, il faut aller [là](http://foundation.zurb.com/docs/sass.html) et lire la doc. Sous Windows, aucune idée comment ça marche. Sous mac et linux, il faut avoir les prérequis ci-dessus qui sont installés. J'utilise la méthode Libsass. 
+
+Lorsque vous faites `git clone` sur ce projet, les fichiers de bases viennent avec, mais il n'y aura notamment pas de **CSS**. Il faudra le générer grâce au fichiers sass. Pour cela, on va utiliser **grunt**. On a donc pas besoin de **ruby** pour que ça fonctionne.
+
+Cette commande, une fois lancée, va _watcher_ le répertoire sass (entre autres) pour générer du css _onzeflaille_.
 
 ```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
+grunt
 ```
 
-While you're working on your project, run:
-
-`grunt`
-
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+Le reste à suivre.
