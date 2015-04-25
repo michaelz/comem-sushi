@@ -5,13 +5,8 @@
       <div class="phone columns medium-5">
         022 345 67 89
       </div>
-      <div class="search show-for-medium-up columns medium-7 ">
-        <div class="columns medium-8">
-              <label for="right-label" class="right inline">Label</label>
-        </div>
-        <div class="columns medium-4">
-                <input type="text" id="right-label" placeholder="Inline Text Input">
-        </div>
+      <div class="search show-for-medium-up columns medium-3 ">
+        <input type="text" id="" placeholder="Chercher des produits">
       </div>
     </div>
 
