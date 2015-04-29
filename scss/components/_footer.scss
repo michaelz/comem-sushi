@@ -1,3 +1,37 @@
+#mapinfo {
+	margin-bottom: 2em;
+	div.map a:before {
+		@include icon($fa-var-map-marker);
+				display:block;
+				font-size: 4em;
+				padding: 0.5em;
+	}
+	div.info a:before {
+		@include icon($fa-var-info);
+				display:block;
+				font-size: 4em;
+				padding: 0.5em;
+	}
+	div.tel a:before {
+		@include icon($fa-var-phone);
+				display:block;
+				font-size: 4em;
+				padding: 0.5em;
+	}
+	.columns {
+		text-align:center;
+		a {
+			color:white;
+			font-weight:bold;
+			text-transform:uppercase;
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+	}
+}
+
+
+
 footer {
 	.columns {
 		text-align:center;

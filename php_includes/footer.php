@@ -1,3 +1,17 @@
+<div id="mapinfo">
+	<div class="row">
+		<div class="map columns small-4">
+			<a href="#">Map</a>
+		</div>
+		<div class="info columns small-4">
+			<a href="#">Info</a>
+		</div>
+		<div class="tel columns small-4">
+			<a href="#">Tel</a>
+		</div>
+	</div>
+</div>
+
 <div id="footer">
 <footer class="row">
 	<div class="columns medium-4">

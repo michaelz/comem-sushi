@@ -1,6 +1,5 @@
 @import "settings";
 @import "foundation";
-@import "components/fontawesome/font-awesome.scss";
 
 // Or selectively include components
 // @import
@@ -43,7 +42,9 @@
 
 // My imports
 
+@import "components/fontawesome/font-awesome.scss";
 @import 'variables';
+@import 'mixins';
 @import 'components/header';
 @import 'components/footer';
 @import 'components/menu';
