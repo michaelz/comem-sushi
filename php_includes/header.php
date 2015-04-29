@@ -24,18 +24,14 @@
             <ul class="dropdown">
               <li class="title back hide-for-large-up"><h5><a href="javascript:void(0)">Retour</a></h5></li>
               <li><label>Toute notre carte</label></li>
-              <li class="divider"></li>
               <li><a href="#">Sushis</a></li>
               <li><a href="#">Boissons</a></li>
               <li><a href="#">Accompagnements</a></li>
             </ul>
           </li>
 
-          <li class="divider"></li>
           <li><a href="#">Panier</a></li>
-          <li class="divider"></li>
           <li><a href="#">Mon compte</a></li>
-          <li class="divider"></li>
           <li class="has-dropdown not-click"><a href="#">Info</a>
             <ul class="dropdown">
               <li class="title back hide-for-large-up"><h5><a href="javascript:void(0)">Retour</a></h5></li>
@@ -51,11 +47,6 @@
               </li>
             </ul>
           </li>
-        </ul>
-        <!-- Right Nav Section -->
-        <ul class="right">
-          <li class="divider"></li>
-          <li><a href="#">Item 2</a></li>
         </ul>
       </section>
     </nav>

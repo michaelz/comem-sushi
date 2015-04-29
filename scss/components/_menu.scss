@@ -2,6 +2,11 @@
  * MENU
  */
 
- .menu {
-	float:left;
+ .top-bar,.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
+	background: $orange;
+ }
+ .top-bar {
+ 	.divider {
+ 		color:darken($orange,20%)
+ 	}
  }
