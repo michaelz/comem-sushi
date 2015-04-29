@@ -1,5 +1,6 @@
 @import "settings";
 @import "foundation";
+@import "components/fontawesome/font-awesome.scss";
 
 // Or selectively include components
 // @import
@@ -43,7 +44,8 @@
 // My imports
 
 @import 'variables';
-@import 'components/main';
 @import 'components/header';
 @import 'components/footer';
 @import 'components/menu';
+// Specific pages
+@import 'pages/home';

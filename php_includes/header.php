@@ -1,12 +1,14 @@
 <div class="header">
 <div class="row top-container">
-  <div class="columns small-4 medium-3 large-2 logo"><a href="assets/logo.png">logo</a></div>
+  <div class="columns small-4 medium-3 large-2 logo">
+    <a href="/"><img src="assets/images/logo.png" alt="Ekai Logo"></a>
+  </div>
   <header class="header columns small-8 medium-9 large-10">
     <div class="row">
-      <div class="phone columns medium-5">
-        022 345 67 89
+      <div class="phone columns medium-8">
+        <p class="livraison tel">Livraison à domicile (région Lausanne &amp; environs): 022 345 67 89</p>
       </div>
-      <div class="search show-for-medium-up columns medium-3 ">
+      <div class="search show-for-medium-up columns medium-4 ">
         <input type="text" id="" placeholder="Chercher des produits">
       </div>
     </div>

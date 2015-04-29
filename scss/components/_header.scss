@@ -1,12 +1,18 @@
 $logowidth: 8em;
+body {
+	padding-top: 1em;
+}
 
-.header {
+div.header {
 	background: $orange;
-	color:white;
+	padding: 1em 0;
+	position:relative;
+	z-index:1;
+	box-shadow: 0 0 5em #000;
 }
 
 .logo {
-//	float:left;
-//width: $logowidth;
-
+	img {
+		margin: 1em 0;
+	}
 }

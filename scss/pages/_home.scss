@@ -1,0 +1,53 @@
+// HOME
+
+#carteprom {
+	padding: 10em 0;
+	background-image: url('../assets/images/bg.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	a {
+		color:white;
+		margin: 0.5em 0;
+		border: 1px solid white;
+		display:block;
+		text-transform:uppercase;
+		text-align:center;
+		font-weight:100;
+		font-size: 2em;
+		background:rgba(0,0,0,0.5);
+		&:hover {
+			background: rgba(0,0,0,0.8);
+		}
+	}
+}
+
+#triptic {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	a {
+		display:block;
+		padding-bottom: 40%;
+		background-size: cover;
+		background-position:center center;
+	}
+	h2 {
+		background: rgba(0,0,0,0.6);
+		padding: 0 0.5em;
+		text-transform:uppercase;
+		small {
+			text-transform:none;
+			font-size: 0.8;
+		}
+	}
+	.sushis a {
+		background-image: url('../assets/images/sushis.jpg');
+	}
+	.desserts a {
+		background-image: url('../assets/images/desserts.jpg')
+	}
+	.boissons a {
+		background-image: url('../assets/images/boissons.jpg');
+	}
+
+}

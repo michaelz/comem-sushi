@@ -3,4 +3,13 @@ footer {
 		text-align:center;
 		color:$palegreen;
 	}
+	.logo-footer {
+		background:$orange;
+		padding: 1em;
+		width: 50%;
+	}
+}
+#footer {
+	background:#111;
+	padding: 1em 0;
 }
