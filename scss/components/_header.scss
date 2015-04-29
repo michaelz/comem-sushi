@@ -1,13 +1,12 @@
 $logowidth: 8em;
 
 .header {
-//	margin-left: $logowidth;
+	background: $orange;
+	color:white;
 }
 
 .logo {
 //	float:left;
-	height:7em;
-	background:$orange;
 //width: $logowidth;
 
 }

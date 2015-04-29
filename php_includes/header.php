@@ -1,3 +1,4 @@
+<div class="header">
 <div class="row top-container">
   <div class="columns small-4 medium-3 large-2 logo"><a href="assets/logo.png">logo</a></div>
   <header class="header columns small-8 medium-9 large-10">
@@ -51,4 +52,5 @@
       </section>
     </nav>
   </header>
+</div>
 </div>
