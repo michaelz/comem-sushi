@@ -15,6 +15,8 @@ Pour installer le projet, il faut aller [là](http://foundation.zurb.com/docs/sa
 
 Lorsque vous faites `git clone` sur ce projet, les fichiers de bases viennent avec, mais il n'y aura notamment pas de **CSS**. Il faudra le générer grâce au fichiers sass. Pour cela, on va utiliser **grunt**. On a donc pas besoin de **ruby** pour que ça fonctionne.
 
+La première fois, il faudra lancer un "bower update" qui va mettre à jour les composants et créer un répértoire "bower_components".
+
 Cette commande, une fois lancée, va _watcher_ le répertoire sass (entre autres) pour générer du css _onzeflaille_.
 
 ```bash
