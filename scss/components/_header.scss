@@ -3,6 +3,28 @@ body {
 	padding-top: 1em;
 }
 
+
+div.header .top-icons {
+	margin-top: 0.5em;
+	padding:0;
+	text-align:center;
+	.compte,.panier {
+		line-height:1;
+		display:block;
+		color:white;
+		display:inline-block;
+		margin:0.1em;
+		font-size: 2em;
+	}
+	.compte:before {
+		@include icon($fa-var-user);
+
+	}
+	.panier:before {
+		@include icon($fa-var-shopping-cart);
+	}
+}
+
 div.header {
 	background: $orange;
 	padding: 1em 0;

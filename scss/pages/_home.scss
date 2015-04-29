@@ -1,5 +1,54 @@
-// HOME
+// HOME SMALL
+#home-mobile {
+	margin-top: 1em;
+	text-align:center;
+	#triptic-mobile {
+		span.bg {
+			display:block;
+			background-size: cover;
+			height: 90px;
+		}
+		a {
+			display:block;
+			text-transform:uppercase;
+			font-size: 0.6em;
+			font-weight:bold;
+			overflow:hidden;
+			color:white;
+			background:rgba(0,0,0,0.4);
+		}
+		.sushis .bg {
+			background-image: url('../assets/images/sushis.jpg');
+		}
+		.boissons .bg {
+			background-image: url('../assets/images/boissons.jpg');
+		}
+		.accompagnements .bg {
+			background-image: url('../assets/images/desserts.jpg')
+		}
+	}
+	#promo-mobile {
+		background-image: url('../assets/images/bg.jpg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		padding: 3em 0;
+		background-position: bottom right;
+		a {
+			color:white;
+			margin: 0 auto;
+			width: 50%;
+			border: 1px solid white;
+			display:block;
+			text-transform:uppercase;
+			text-align:center;
+			font-weight:100;
+			font-size: 1.2em;
+			background:rgba(0,0,0,0.5);
+		}
+	}
+}
 
+// RESTE
 #carteprom {
 	padding: 10em 0;
 	background-image: url('../assets/images/bg.jpg');

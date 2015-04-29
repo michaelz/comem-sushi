@@ -2,15 +2,31 @@
  * MENU
  */
 
- .top-bar,.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
-	background: $orange;
- }
- .top-bar {
- 	.divider {
- 		color:darken($orange,20%)
- 	}
- }
+.top-bar,.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
+	background: transparent;
+}
+.top-bar-section {
+	ul.dropdown small {
+		color:white;
+	  font-size: 0.7em;
+		text-transform:uppercase;
+		a {
+			color:white;
+		}
+
+		a:before {
+			@include icon($fa-var-angle-left);
+			padding-right: 0.5em;
+		}
+	}
+}
 
 .top-bar-section>ul>li>a {
 	font-size: 1.1em;
+}
+
+.top-bar.expanded .title-area {
+	background:$orange;
+	color:white;
+	font-weight:bold;
 }

@@ -1,13 +1,13 @@
-<div id="mapinfo">
+<div class="hide-for-medium-up" id="mapinfo">
 	<div class="row">
 		<div class="map columns small-4">
 			<a href="#">Map</a>
 		</div>
 		<div class="info columns small-4">
-			<a href="#">Info</a>
+			<a href="informations.php">Info</a>
 		</div>
 		<div class="tel columns small-4">
-			<a href="#">Tel</a>
+			<a href="tel:0041223456789">Tel</a>
 		</div>
 	</div>
 </div>
