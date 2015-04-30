@@ -3,7 +3,7 @@
 <?php include 'php_includes/header.php'; ?>
 <div id="page-informations">
 <div class="row">
-    <h5 class="telephone">022 345 67 89</h3>
+    <h5 class="telephone">021 312 44 00</h3>
     <h1>Informations</h1>
 </div>
 <div class="row">
@@ -31,16 +31,27 @@
      </ul>
     </div>
 
-      <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(46.521580, 6.630474),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions);
+    <script>
+      var myCenter=new google.maps.LatLng(46.521580, 6.630474);
+
+      function initialize()
+      {
+      var mapProp = {
+        center:myCenter,
+        zoom:15,
+        mapTypeId:google.maps.MapTypeId.ROADMAP,
+
+        };
+
+      var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
+
+      var marker=new google.maps.Marker({
+        position:myCenter,
+        });
+
+      marker.setMap(map);
       }
+
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 

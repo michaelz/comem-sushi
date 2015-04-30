@@ -7,19 +7,19 @@
 
 	<div class="sushis content">
   	<div class="row">
-  		<div class="small-4 columns"> <a href="#">Sashimi</a></div>
-  		<div class="small-4 columns"> <a href="#">Nigri</a></div>
-  		<div class="small-4 columns"> <a href="#">Hosomaki</a></div>
+  		<div class="small-4 columns"> <a class="sashimi" href="produit.php"><span class="label">Sashimi</span></a></div>
+  		<div class="small-4 columns"> <a class="nigri" href="produit.php"><span class="label">Nigri</span></a></div>
+  		<div class="small-4 columns"> <a class="hosomaki" href="produit.php"><span class="label">Hosomaki</span></a></div>
   	</div>
   	<div class="row">
-  		<div class="small-4 columns"> <a href="#">California</a></div>
-  		<div class="small-4 columns"> <a href="#">Mixtes</a></div>
-  		<div class="small-4 columns"> <a href="#">Chirashi</a></div>
+  		<div class="small-4 columns"> <a class="california" href="produit.php"><span class="label">California</span></a></div>
+  		<div class="small-4 columns"> <a class="mixtes" href="produit.php"><span class="label">Mixtes</span></a></div>
+  		<div class="small-4 columns"> <a class="chirashi" href="produit.php"><span class="label">Chirashi</span></a></div>
   	</div>
   	<div class="row">
-  		<div class="small-4 columns"> <a href="#">Plats chauds</a></div>
-  		<div class="small-4 columns"> <a href="#">Grands plateaux</a></div>
-  		<div class="small-4 columns"> <a href="#">Rouleaux d'été</a></div>
+  		<div class="small-4 columns"> <a class="pchauds" href="produit.php"><span class="label">Plats chauds</span></a></div>
+  		<div class="small-4 columns"> <a class="plateaux" href="produit.php"><span class="label">Grands plateaux</span></a></div>
+  		<div class="small-4 columns"> <a class="rouleaux" href="produit.php"><span class="label">Rouleaux d'été</span></a></div>
   	</div>
 	</div>
 

@@ -1,0 +1,24 @@
+#page-produits,.content.sushis {
+	.columns a {
+		margin: 0 auto;
+		text-align:center;
+		display:block;
+		background: url('../assets/images/produits.jpg') no-repeat white;
+		max-width: 130px;
+		padding-top: 50px;
+		border: 1px solid $palegreen;
+		margin-bottom: 1em;
+		white-space:nowrap;
+		font-size: 0.8em;
+		text-transform:uppercase;
+	}
+	.sashami 		{	background-position: 0 0;	}
+	.nigri 			{ background-position: 0 0;	}
+	.hosomaki		{ background-position: 0 0;	}
+	.california	{ background-position: 0 0;	}
+	.mixtes			{ background-position: 0 0;	}
+	.chirash		{ background-position: 0 0;	}
+	.pchauds 		{ background-position: 0 0;	}
+	.plateaux		{ background-position: 0 0;	}
+	.rouleaux		{ background-position: 0 0;	}
+}
