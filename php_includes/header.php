@@ -12,7 +12,7 @@
   <header class="header columns small-4 medium-9 large-10">
     <div class="row hide-for-small">
       <div class="phone columns medium-8">
-        <p class="livraison tel">Livraison à domicile (région Lausanne &amp; environs):<strong> 022 345 67 89</strong></p>
+        <p class="livraison tel">Livraison à domicile (région Lausanne &amp; environs):<strong> 022 312 44 00</strong></p>
       </div>
       <div class="search columns medium-4 ">
         <input type="text" id="" placeholder="Chercher des produits">
