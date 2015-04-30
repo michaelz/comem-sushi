@@ -1,0 +1,46 @@
+#page-panier {
+	a.enlever {
+		color:$red;
+		&:before {
+			@include icon($fa-var-minus-square);
+			padding-right: 0.5em;
+		}
+	}
+	.illustration {
+		margin-top:0.5em;
+		margin-bottom: 0.5em;
+		line-height:0;
+		img {
+			max-height: 3em;
+
+		}
+	}
+	&>.item {
+		border-bottom: 1px solid white;
+		.nom {
+			margin-top: 0.5em;
+		}
+		.qte {
+			margin-top: 0.5em;
+			.text,input,a {
+				display:inline-block;
+			}
+			input {
+				width: 4em;
+				margin-left: 1em;
+				margin-right: 1em;
+			}
+
+		}
+	}
+
+	.commande-fin {
+		margin-top: 1em;
+		.total {
+			text-align:right;
+			strong {
+				font-size: 1.4em;
+			}
+		}
+	}
+}

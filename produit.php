@@ -8,21 +8,23 @@
 <div class="row liste">
   <div class="small-12 columns produit">
     <div class="row">
-      <div class="medium-2 small-4 columns illustration"><img src="assets/images/produit1.jpg"/></div>
+      <div class="medium-2 small-4 columns illustration"><img src="assets/images/sashimi_saumon.gif"/></div>
       <div class="medium-10 small-8 columns">
-        <h2>Sashimi Saumon</h2>
-          <p class="desc">8 sashimi saumon <span class="prix">11.00</span></p>
-          <div class="ajout"><a href="panier.php">+</a></div>
+        <h3>Sashimi Saumon</h3>
+          <p class="desc"><span class="label">8 sashimi saumon</span></p>
+           <div class="prix">11.00</div>
+          <div class="ajout"><a href="panier.php">Ajouter au panier</a></div>
       </div>
     </div>
   </div>
   <div class="small-12 columns produit">
     <div class="row">
-      <div class="medium-2 small-4 columns illustration"><img src="assets/images/produit2.jpg"/></div>
+      <div class="medium-2 small-4 columns illustration"><img src="assets/images/sashimi_mixte.gif"/></div>
       <div class="medium-10 small-8 columns">
-        <h2>Sashimi Mixte</h2>
-          <p class="desc">4 sashimi saumon<br/>4 sashimi loup de mer<br />3 sashimi thon <span class="prix">11.00</span></p>
-          <div class="ajout"><a href="panier.php">+</a></div>
+        <h3>Sashimi Mixte</h3>
+          <p class="desc"><span class="label">4 sashimi saumon</span><br/><span class="label">4 sashimi loup de mer</span><br /><span class="label">3 sashimi thon</span></p>
+          <div class="prix">16.00</div>
+          <div class="ajout"><a href="panier.php">Ajouter au panier</a></div>
       </div>
     </div>
   </div>

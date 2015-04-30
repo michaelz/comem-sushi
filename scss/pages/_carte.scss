@@ -1,0 +1,25 @@
+.accordion .accordion-navigation>a, .accordion dd>a {
+	background:#222;
+	border: 1px solid $orange;
+	color:white;
+	&:after {
+	}
+}
+.accordion .accordion-navigation>a:hover, .accordion dd>a:hover {
+	background: black;
+	color:white;
+}
+
+.accordion .accordion-navigation.active>a, .accordion dd.active>a {
+	background: #222;
+	&:after {
+	}
+}
+
+.accordion .promotions {
+	color:$orange;
+	text-align:center;
+}
+.accordion .accordion-navigation > .content.active.sushis {
+	background:black;
+}

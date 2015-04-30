@@ -5,20 +5,26 @@
 		display:block;
 		background: url('../assets/images/produits.jpg') no-repeat white;
 		max-width: 130px;
-		padding-top: 50px;
-		border: 1px solid $palegreen;
+		padding-top: 80px;
 		margin-bottom: 1em;
 		white-space:nowrap;
 		font-size: 0.8em;
 		text-transform:uppercase;
+		border-radius: 130px;
+		.label {
+			display:block;
+			position:relative;
+			bottom: 20px;
+
+		}
+		&.sashimi 		{	background-position: -364px 0;	}
+		&.nigri 			{ background-position: -184px 0;	}
+		&.hosomaki		{ background-position: 12px 0;	}
+		&.california	{ background-position: -91px 0;	}
+		&.mixtes			{ background-position: -272px 10px;	}
+		&.chirashi		{ background-position: -754px 0;	}
+		&.pchauds 		{ background-position: -470px 0;	}
+		&.plateaux		{ background-position: -613px 0;	}
+		&.rouleaux		{ background-position: -888px 0;	}
 	}
-	.sashami 		{	background-position: 0 0;	}
-	.nigri 			{ background-position: 0 0;	}
-	.hosomaki		{ background-position: 0 0;	}
-	.california	{ background-position: 0 0;	}
-	.mixtes			{ background-position: 0 0;	}
-	.chirash		{ background-position: 0 0;	}
-	.pchauds 		{ background-position: 0 0;	}
-	.plateaux		{ background-position: 0 0;	}
-	.rouleaux		{ background-position: 0 0;	}
 }

@@ -1,0 +1,38 @@
+#page-produit {
+	div.columns.produit {
+		position:relative;
+		margin-bottom: 1em;
+		padding-bottom: 1em;
+		padding-top: 1em;
+		background: rgba($silver,0.2);
+	}
+	div.prix {
+		position:absolute;
+		right: 1em;
+		top: 0.3em;
+		font-size: 1.7em;
+		line-height:1;
+		&:before {
+			content: "CHF";
+			font-size: 1rem;
+			color:$palegreen;
+			padding-right:0.4em;
+		}
+	}
+	div.ajout {
+		position:absolute;
+		right:1em;
+		top: 4em;
+		a {
+			color:white;
+
+			text-transform:uppercase;
+			&:before {
+				@include icon($fa-var-plus-square);
+				padding-right: 0.5em;
+				color:$orange;
+			}
+		}
+
+	}
+}
