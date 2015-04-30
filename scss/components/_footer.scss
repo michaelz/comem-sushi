@@ -3,19 +3,19 @@
 	div.map a:before {
 		@include icon($fa-var-map-marker);
 				display:block;
-				font-size: 4em;
+				font-size: 3em;
 				padding: 0.5em;
 	}
 	div.info a:before {
 		@include icon($fa-var-info);
 				display:block;
-				font-size: 4em;
+				font-size: 3em;
 				padding: 0.5em;
 	}
 	div.tel a:before {
 		@include icon($fa-var-phone);
 				display:block;
-				font-size: 4em;
+				font-size: 3em;
 				padding: 0.5em;
 	}
 	.columns {

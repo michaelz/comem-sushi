@@ -27,7 +27,8 @@ div.header .top-icons {
 
 div.header {
 	background: $orange;
-	padding: 1em 0;
+	padding: 0.5em 0;
+	margin-bottom: 1em;
 	position:relative;
 	z-index:1;
 	box-shadow: 0 0 5em #000;
@@ -36,5 +37,18 @@ div.header {
 .logo {
 	img {
 		margin: 1em 0;
+	}
+}
+
+p.livraison.tel {
+	margin-bottom:0;
+	font-weight:100;
+	margin-top: 0.6em;
+}
+
+
+div.search {
+	input {
+		margin:0;
 	}
 }

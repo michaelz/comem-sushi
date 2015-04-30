@@ -21,4 +21,4 @@
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
   </head>
-  <body>
+  <body class="<?php echo $pageClass; ?>">

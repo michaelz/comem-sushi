@@ -1,7 +1,9 @@
+</div>
+
 <div class="hide-for-medium-up" id="mapinfo">
 	<div class="row">
 		<div class="map columns small-4">
-			<a href="#">Map</a>
+			<a href="https://www.google.ch/maps/place/Sushi+express+Eka%C3%AF/@46.5214162,6.6305037,19z/data=!4m2!3m1!1s0x478c2e320621a2f7:0xe770a8eb735a4e5?hl=fr">Map</a>
 		</div>
 		<div class="info columns small-4">
 			<a href="informations.php">Info</a>

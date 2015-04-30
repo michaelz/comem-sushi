@@ -1,3 +1,23 @@
+h1 {
+	border-bottom: 1px solid $palegreen;
+	color:$palegreen;
+}
+
+.horaires {
+	&:before {
+		@include icon($fa-var-calendar);
+		padding-right:0.5em;
+	}
+}
+.telephone {
+	float:right;
+	font-size: 2em;
+	&:before {
+		@include icon($fa-var-phone);
+		padding-right:0.5em;
+	}
+}
 #map-canvas {
-	height: 10em;
+	height: 15em;
+	margin-bottom: 2em;
 }

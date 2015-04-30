@@ -15,7 +15,6 @@
 			font-weight:bold;
 			overflow:hidden;
 			color:white;
-			background:rgba(0,0,0,0.4);
 		}
 		.sushis .bg {
 			background-image: url('../assets/images/sushis.jpg');
@@ -25,6 +24,16 @@
 		}
 		.accompagnements .bg {
 			background-image: url('../assets/images/desserts.jpg')
+		}
+		span.txt {
+			display:block;
+			width: 80%;
+			margin: -3em auto 0;
+			margin-bottom: 2em;
+			background:rgba(0,0,0,0.8);
+			border: 1px solid #fff;
+			height: 2em;
+			overflow:hidden;
 		}
 	}
 	#promo-mobile {
