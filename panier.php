@@ -2,7 +2,7 @@
 <?php include 'php_includes/htmlbefore.php'; ?>
 <?php include 'php_includes/header.php'; ?>
 <div class="row">
-	<h1>Paniers</h1>
+	<h1>Panier</h1>
 </div>
 
 
